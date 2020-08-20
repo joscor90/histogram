@@ -19,3 +19,8 @@ frequencies = frequencies.sort_by do |freq, count|
 end
 
 frequencies.reverse!
+
+#Frequency iteration and printing
+frequencies.each do |x, y|
+    puts "#{x}: #{y}"
+end
