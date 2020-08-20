@@ -6,4 +6,9 @@ text = gets.chomp
 words = text.split
 
 #Hash
-frequencies = Hash.new
+frequencies = Hash.new(0)
+
+#Array iteration
+words.each do |w|
+    frequencies[w] += 1
+end
